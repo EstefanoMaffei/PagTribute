@@ -1,0 +1,113 @@
+*{
+ font-family: 'Oswald', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ color: #ffd700;
+}
+body{
+     background-color: #1A1818;
+}
+
+/* BARRA NAVEGACION */
+
+.nav-bar{
+     background-color: #0C0B0B;
+     height: 4rem;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin: auto;
+}
+
+a{
+     
+     font-size: 2rem;
+     transition: ease-out 0.3s;
+     text-decoration: none;
+     
+}
+
+.inicioNav:hover{
+    color: white;
+}
+
+.quienEsNav:hover{
+     color: white;
+ }
+
+ .AccionesNav:hover{
+     color: white;
+ }
+
+/* FIN BARRA NAVEGACION */
+
+/* MAIN */
+
+ .NombrePersonaBio{
+     text-align: center;
+     font-size: 3.5rem;
+ }
+
+ div>span{
+     font-size: 2.5rem;
+ }
+
+
+ .mainBio{
+     height: auto;
+     width: auto;
+ }
+
+.divImageneInfo{
+     padding-top: 5rem;
+     text-align: center;
+     font-size: 1.5rem;
+     height: auto;
+     width: auto;
+     
+}
+.backgroundWhite{
+   
+     width: 45rem;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 3.5rem;
+
+     transition: ease-out 0.2s
+}
+
+.backgroundWhite:hover{
+     background-color: #273036;
+     width: 50rem;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 2.5rem;
+     transition: ease-out 0.2s
+}
+
+.parrafoBio{
+     text-align: center;
+     font-size: 1.5rem;
+     padding-top: 10rem;
+     padding-bottom: 5rem;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.listaPremios{
+     text-align: center;
+     width: 50rem;
+     margin: auto;
+     
+}
+.ordenarListaPremios{
+     text-align: center;
+     list-style: none;
+     font-size: 1rem;
+}
+
+.linkWiki{
+
+     text-align: center;
+}
